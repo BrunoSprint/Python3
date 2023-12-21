@@ -23,4 +23,35 @@ else:
 
 
 
+#  IF/elif/else: em alguns cenarios usamos mais de dois desvios, elif é composto de uma nova expressão lógica, que será testada
+# no caso de verdadeiro, o bloco de código elif será executado.
+# Não existe um máximo de elifs, porem evite grandes estruturas condicionais, pois almentam a complexidade do codigo.
+
+
+
+opcao = init(input("Informe uma opção: [1] Sacar \n[2] Extrato: "))
+
+if opcao ==1:
+    valor = float(input("Informe a quantia para o saque: "))
+
+elif opcao == 2:
+    print("Exibindo o Extrato...")
+
+else:
+    sys.exit("Opção Inválida")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
