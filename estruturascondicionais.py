@@ -11,8 +11,9 @@ saque = float(input("Informe o valor do Saque: "))
 if saldo >= saque:
     print("Realizando Saque!")
 
-if saldo <= saque:
-    print("Saldo Insuficiente!")
+else:
+     saldo <= saque:
+    print("Saldo Insuficiente")
 
 
 # if / else : Estrutura condicionada com dois devios, palavras reservadas if&else. 
