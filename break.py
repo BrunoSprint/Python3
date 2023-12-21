@@ -22,3 +22,6 @@ for numero in range(100):
 
 # while True : enquanto verdade, pode criar um laço infinito.
     
+
+
+# o método de interrupção : KeyboardInterrupt
