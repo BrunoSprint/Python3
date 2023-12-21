@@ -1,3 +1,5 @@
-name = " john "
 
-print("johhn")
+
+names = " Maria "
+
+print(names)
