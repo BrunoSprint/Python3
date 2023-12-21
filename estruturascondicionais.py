@@ -12,7 +12,6 @@ if saldo >= saque:
     print("Realizando Saque!")
 
 else:
-     saldo <= saque:
     print("Saldo Insuficiente")
 
 
