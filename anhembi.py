@@ -49,14 +49,14 @@ vetor2 = [6, 7, 8, 9, 10]
 # Chama a função de soma de vetores paralela
 resultado_final = soma_vetores_paralelo(vetor1, vetor2)
 print(resultado_final)
-
+"""
 Nesse exemplo, a função soma_vetores_paralelo é responsável por realizar a computação 
 paralela da soma dos vetores vetor1 e vetor2.
 Ela utiliza a biblioteca multiprocessing para criar vários processos, dividir o trabalho entre eles e aguardar a conclusão de todos.
 O resultado é armazenado em um array compartilhado entre os processos e, ao final, é convertido em uma lista para ser retornado.
 Exemplo de prática sobre Computação Paralela e Distribuída usando Java.
 Nesta prática, vamos criar um programa que realiza a multiplicação de matrizes utilizando programação paralela. 
-Vamos dividir a;
+Vamos dividir a;"""
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -125,7 +125,7 @@ public class ParallelMatrixMultiplication {
  }
  }
 } 
-Criamos uma classe ParallelMatrixMultiplication que realiza a multiplicação de matrizes usando 
+"""Criamos uma classe ParallelMatrixMultiplication que realiza a multiplicação de matrizes usando 
 programação paralela. A matriz resultante é armazenada na matriz resultMatrix. Nós dividimos a 
 tarefa de multiplicação em várias threads usando ExecutorService e Runnable.
 Na função main, inicializamos as matrizes matrixA e matrixB com valores aleatórios usando o 
@@ -135,7 +135,7 @@ tarefa de multiplicação a cada thread.
 Cada thread executa a multiplicação das matrizes parcialmente no método run() da classe 
 MatrixMultiplicationTask. Cada thread é responsável por um conjunto específico de linhas. Os 
 resultados parciais são armazenados na matriz resultMatrix.
-Após a finalização de todas as threads, imprimimos a matriz resultante usando o método 
+Após a finalização de todas as threads, imprimimos a matriz resultante usando o método """
 printResultMatrix().
 Exemplo em C:
 #include <stdio.h>
@@ -172,10 +172,10 @@ int main() {
  free(vector);
  return 0;
 }
-Utilizamos a biblioteca OpenMP para criar threads paralelas. A variável SIZE define o tamanho do 
+"""Utilizamos a biblioteca OpenMP para criar threads paralelas. A variável SIZE define o tamanho do 
 vetor, e NUM_THREADS define o número de threads que serão utilizadas para realizar a soma 
 paralela. A soma parcial de cada thread é armazenada no vetor partial_sums. No final, os 
-resultados parciais são somados para obter a soma total.
+resultados parciais são somados para obter a soma total."""
 
 
 
