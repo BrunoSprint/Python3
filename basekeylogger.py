@@ -7,4 +7,4 @@ def keylogger():
         print("Key pressed:", key)
         time.sleep(1)
 
-keylogger()
+keylogger() 
